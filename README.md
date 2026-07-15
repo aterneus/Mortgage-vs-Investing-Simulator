@@ -1,6 +1,7 @@
 # Mortgage vs Investing Strategy Simulator
 
 This project is a Streamlit web app that lets you compare mortgage payoff strategies against investing strategies.
+The program is also available on the web at: https://mortgage-vs-investing-simulator.streamlit.app/
 
 ## Features
 
