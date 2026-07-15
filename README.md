@@ -15,7 +15,11 @@ This project is a Streamlit web app that lets you compare mortgage payoff strate
 
 ## Run locally
 
-Program can be easily run through run_app.bat which automatically install any dependencies.
+Program can be easily run with 
+```bash
+run_app.bat 
+```
+which automatically installs any dependencies.
 
 Alternatively,
 ```bash
