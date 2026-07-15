@@ -15,6 +15,9 @@ This project is a Streamlit web app that lets you compare mortgage payoff strate
 
 ## Run locally
 
+Program can be easily run through run_app.bat which automatically install any dependencies.
+
+Alternatively,
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
@@ -22,17 +25,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Shareable deployment
 
-1. Push this repository to GitHub.
-2. Go to https://share.streamlit.io and sign in.
-3. Connect your GitHub account and select this repo.
-4. Choose `app.py` as the main file and deploy.
-
-The app will then be available at a public Streamlit URL.
-
-## Notes
-
-- Use the sidebar to choose historical or user-entered returns.
 - The adaptive strategy uses lookback thresholds to decide when to pay extra principal.
 - Capital gains tax is applied to investment returns.
